@@ -13,7 +13,7 @@ Additionally, you have to download the python files from this repo and place it 
 To run the DTF algorithm locally, you can run the following code in the terminal:
 > cd /path/to/saved/python/files/
 
-> python3 Triangulate.py -d data/
+> python3 DynamicTrajectoryFit.py -d data/
 
 This should produce the fitted trajectory data (ecsv format), trajectory plots (including along-track error, cross-track error, modelled beta, modelled mass, modelled velocity), and a variety of Google Earth files to visualise the trajectory (kml format).
 
