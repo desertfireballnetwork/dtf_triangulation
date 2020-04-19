@@ -3,17 +3,19 @@ The Dynamic Trajectory Fit (DTF) method is a unique meteoroid triangulation tech
 
 ## Installation
 Before you can run the DTF software on your PC, there are some required modules that must be externally installed, including the following:
-> pip3 install numpy, scipy, astropy, matplotlib, pyyaml
-
-> sudo apt install python3-tk
+```
+pip3 install numpy, scipy, astropy, matplotlib, pyyaml
+sudo apt install python3-tk
+```
 
 Additionally, you have to download the python files from this repo and place it into a local folder on your PC.
 
 ## Run
 To run the DTF algorithm locally, you can run the following code in the terminal:
-> cd /path/to/saved/python/files/
-
-> python3 DynamicTrajectoryFit.py -d data/
+```
+cd /path/to/saved/python/files/
+python3 DynamicTrajectoryFit.py -d data/
+```
 
 This should produce the fitted trajectory data (ecsv format), trajectory plots (including along-track error, cross-track error, modelled beta, modelled mass, modelled velocity), and a variety of Google Earth files to visualise the trajectory (kml format).
 
